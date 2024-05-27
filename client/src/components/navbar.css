@@ -1,0 +1,43 @@
+.navBar {
+  margin-bottom: 20px;
+  background-color: #0d6efd;
+}
+
+.nav-ul {
+  list-style-type: none;
+  margin: 10px;
+  padding-left: 20px;
+  display: flex;
+  font-size: 20px;
+}
+
+.li-nav {
+  margin-right: 10px;
+}
+
+.button-nav {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  left: 1155px;
+  position: relative;
+  border-radius: 10px;
+  outline: none;
+  font-weight: 600;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.button-nav:hover {
+  background-color: #0b5cd6;
+}
+
+.nav-link {
+  margin-left: 20px;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: rgb(6, 6, 56);
+}
