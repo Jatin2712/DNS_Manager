@@ -45,6 +45,10 @@ npm install @fortawesome/fontawesome-free@latest @fortawesome/free-solid-svg-ico
   { "type": "DNSSEC", "description": "DNSSEC" }
 ]
 ```
+## Mongo DB URL
+
+mongodb+srv://jatinbundel:Jatin123@cluster0.ug5kxjw.mongodb.net/dnsManager?retryWrites=true&w=majority&appName=Cluster0
+
 
 ## Credentials To Login Are:
 
