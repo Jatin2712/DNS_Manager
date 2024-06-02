@@ -49,6 +49,7 @@ const RegisterForm = () => {
         toast.error(error.response.data.message);
       } else {
         toast.error("Error Registering User");
+        setErrors('Invalid email or password');
       }
     }
   };
