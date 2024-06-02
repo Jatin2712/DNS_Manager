@@ -71,7 +71,7 @@ const DNSRecordForm = () => {
       };
 
       axios
-        .post(baseURL`/dnsRecords`, dataToSend, {
+        .post(baseURL+`/dnsRecords`, dataToSend, {
           headers: {
             Authorization: `Bearer ${token}`,
           },
