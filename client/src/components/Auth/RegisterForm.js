@@ -4,7 +4,7 @@ import "../base.css";
 import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-const baseURL = 'http://localhost:8000/api';
+const baseURL = 'https://dns-manager-a549.onrender.com/api';
 const RegisterForm = () => {
   const [userData, setFormData] = useState({
     firstname: "",
