@@ -1,4 +1,4 @@
-import DnsType from '../models/DnsType.js';
+import DnsType from '../models/DNSType.js';
 
 // Create a new DNS type
 export const createDnsType = async (req, res) => {
