@@ -6,7 +6,7 @@ import { faEnvelope, faLock } from "@fortawesome/free-solid-svg-icons";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "../base.css";
-const baseURL = 'http://localhost:8000/api';
+const baseURL = 'https://dns-manager-a549.onrender.com/api';
 function LoginForm({ setIsAuthenticated }) {
   const [formData, setFormData] = useState({
     email: "",
