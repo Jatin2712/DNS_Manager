@@ -47,7 +47,7 @@ function LoginForm({ setIsAuthenticated }) {
       }
     } catch (err) {
       toast.error("Invalid Email or Password");
-      //setError('Invalid email or password');
+      setError('Invalid email or password');
     }
   };
 
