@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'http://localhost:8000/api/',
+  baseURL: 'https://dns-manager-a549.onrender.com/api/',
   headers: {
     'Content-Type': 'application/json'
   }
