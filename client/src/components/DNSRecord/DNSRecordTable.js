@@ -17,7 +17,7 @@ import * as XLSX from "xlsx";
 import * as FileSaver from "file-saver";
 import { ToastContainer, toast } from "react-toastify";
 
-const baseURL = 'http://localhost:8000/api';
+const baseURL = 'https://dns-manager-a549.onrender.com/api';
 
 const DNSRecordTable = () => {
   const [dnsRecords, setDnsRecords] = useState([]);
