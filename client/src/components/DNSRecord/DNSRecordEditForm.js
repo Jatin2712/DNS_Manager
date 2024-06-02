@@ -4,7 +4,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "../base.css";
-const baseURL = 'http://localhost:8000/api';
+const baseURL = 'https://dns-manager-a549.onrender.com/api';
 const DNSRecordEditForm = () => {
   const { recordId } = useParams();
   const [formData, setFormData] = useState({
